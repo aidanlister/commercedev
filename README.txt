@@ -23,6 +23,6 @@ http://drupal.org/project/views
 DRUSH:
 This installation profile includes a drush makefile, simply run: 
 $ drush make https://github.com/aidanlister/commercedev/raw/master/build.make commercedev
-$ drush site-install --db-url mysql://user:pass@localhost/commercedev
+$ drush site-install commercedev --db-url mysql://user:pass@localhost/commercedev
 ... and you're up and running.
 
